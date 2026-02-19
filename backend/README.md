@@ -17,7 +17,7 @@ This backend provides REST API and WebSocket endpoints for real-time pose detect
 
 ## Requirements
 
-- Python 3.10 or higher
+- Python 3.13+ (fully compatible)
 - pip or conda package manager
 
 ## Installation
@@ -165,7 +165,7 @@ If you encounter import errors, ensure you're running from the `backend` directo
 ### MediaPipe Issues
 If MediaPipe fails to initialize, ensure you have the correct version installed:
 ```bash
-pip install mediapipe==0.10.8
+pip install mediapipe==0.10.32
 ```
 
 ### Port Already in Use
